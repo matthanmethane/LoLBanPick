@@ -1,8 +1,9 @@
 # LoLBanPick-V2.0
 Simulate League of Legend Ban Pick using FastApi and WebSocket
 ## Main  Feature
-* Allow Multiple independent Websockets distinguished by a token
-* Retrieval of current banPick information when any new WebSocket connection is made during a banPick
+* **Real-time** update using **Websocket**
+* Allow **multiple** independent ban picks running distinguished by a token
+* **Retrieval** of current banPick information when any new WebSocket connection is made during a banPick
 * Champions they selected but not locked-in is viewed to everyone
 * All BanPick Basic Rules
   * Blue can't perform any actions when its Red turn
