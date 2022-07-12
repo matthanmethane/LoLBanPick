@@ -9,6 +9,11 @@ Simulate League of Legend Ban Pick using FastApi and WebSocket
   * Blue can't perform any actions when its Red turn
   * Spectate can only spectate
   * Champions selected cannot be reselected
+## Running
+1. Install requirements.txt 
+2. Run python main.py
+3. Open https://localhost:8080/create
+ Then, you should see links generated for each side and for spectator
 ## Implementation
 Backend: FastApi & Websocket <br/>
 Frontend: Simple HTML, CSS, JavaScript <br/>
